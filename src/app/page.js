@@ -1,9 +1,7 @@
-import Image from "next/image";
+import Intro from '@/app/_components/intro';
 
 export default function Home() {
   return (
-    <section id="landing-page">
-      
-    </section>
+    <Intro />
   );
 }

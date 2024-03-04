@@ -32,7 +32,6 @@ export default function Navbar() {
                     </div>
                 </nav>
             </section>
-            <div className='h-16'></div>
         </>
     );
 }

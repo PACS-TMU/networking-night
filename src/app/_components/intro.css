@@ -1,0 +1,19 @@
+#intro {
+    /*  this is where the magic happens:  */
+    background-image: url("/images/networking.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    
+    /* dimensions are important, ensure it is tall enough to scroll */ 
+    min-height: 90vh;
+    
+    /* you are free to lay out the container items with flexbox or whatever means you wish */
+    display: flex;
+}
+
+#overlay {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(59, 9, 138, 1) 0%, rgba(59, 9, 138, 0.7) 60%, rgba(59, 9, 138, 0.3) 100%);
+}
