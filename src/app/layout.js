@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable} font-sans`}>
         <Navbar />
-        <main className="space-y-20">{children}</main>
+        <main className="space-y-10">{children}</main>
         <Footer />
       </body>
     </html>
