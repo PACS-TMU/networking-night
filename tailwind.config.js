@@ -11,7 +11,7 @@ module.exports = {
       "foreground": "#191F2D",
       "highlight": "#CBC5EA",
       "highlight-light": "#E5E2F5",
-      "highlight-dark": "#3b098a"
+      "highlight-dark": "#4a1d91"
     },
     fontFamily: {
       sans: ['var(--sans)'],

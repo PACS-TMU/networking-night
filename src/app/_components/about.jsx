@@ -41,17 +41,34 @@ export default function About() {
                 </div>
                 <div className="flex flex-col py-4 lg:text-lg font-sans">
                     <h1 className="text-foreground text-xl md:text-2xl lg:text-3xl font-sans tracking-wide leading-relaxed font-semibold">
-                        Event Details and Panelists
+                        Event Details
                     </h1>
-                    <p className="text-foreground mt-4">
-                        <span className="underline font-semibold">Date:</span> November 20th, 2021
-                    </p>
-                    <p className="text-foreground mt-4">
-                        <span className="underline font-semibold">Time:</span> 5:30pm - 8:00pm
-                    </p>
-                    <p className="text-foreground mt-4">
-                        <span className="underline font-semibold">Location:</span> Oakham Lounge, 35 Gould St, Toronto, ON M5B 1E9
-                    </p>
+                    <div id="detail-box" className="mt-4 lg:mt-8 items-center justify-center mx-auto rounded-md shadow-md text-background bg-highlight-dark w-[80%] grid grid-cols-1 grid-rows-3 lg:grid-rows-1 lg:grid-cols-[28%_28%_43%]">
+                        <div id="date" className="h-full w-full flex flex-col items-center justify-center border-b lg:border-r border-background">
+                            <h1 className="font-serif text-2xl lg:text-4xl py-4 tracking-wide">
+                                Date
+                            </h1>
+                            <p className="pb-4 text-center">
+                                November 20th, 2021
+                            </p>
+                        </div>
+                        <div id="date" className="h-full w-full flex flex-col items-center justify-center border-b lg:border-r border-background">
+                            <h1 className="font-serif text-2xl lg:text-4xl py-4 tracking-wide">
+                                Time
+                            </h1>
+                            <p className="pb-4 text-center">
+                                5:30pm - 8:00pm
+                            </p>
+                        </div>
+                        <div id="date" className="h-full w-full flex flex-col items-center justify-center">
+                            <h1 className="font-serif text-2xl lg:text-4xl py-4 tracking-wide">
+                                Location
+                            </h1>
+                            <p className="pb-4 text-center">
+                                Oakham Lounge, 35 Gould St, Toronto, ON M5B 1E9
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
