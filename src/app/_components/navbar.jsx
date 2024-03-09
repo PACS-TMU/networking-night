@@ -4,7 +4,7 @@ export default function Navbar() {
             <section id="navbar" className="bg-background h-16 top-0 w-full">
                 <nav className="hidden md:flex main">
                     <div className="flex items-center justify-between w-full mx-auto h-full">
-                        <div className="flex md:text-lg lg:text-xl items-center font-serif w-full h-full">
+                        <div className="flex md:text-lg lg:text-xl items-center font-sans w-full h-full">
                             <a href="#home" className="flex items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
                                 Home
                             </a>
@@ -14,14 +14,14 @@ export default function Navbar() {
                             <a href="#agenda" className="flex items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
                                 Agenda
                             </a>
-                            <a href="#speakers" className="flex items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
-                                Speakers
+                            <a href="#panel" className="flex items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
+                                Panelists
                             </a>
                             <a href="#contact" className="flex items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
                                 Contact
                             </a>
                         </div>
-                        <div className="flex items-center space-x-4 h-full font-serif">
+                        <div className="flex items-center space-x-4 h-full font-sans">
                             <a href="#rsvp" className="flex md:text-lg lg:text-xl items-center text-foreground px-4 lg:px-8 font-bold h-full hover:bg-highlight-dark hover:text-background ease-in-out duration-200">
                                 RSVP
                             </a>
