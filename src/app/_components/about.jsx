@@ -44,8 +44,8 @@ export default function About() {
                     </p>
                     <p className="text-foreground mt-4">
                         This event is hosted by the Undergraduate Science Society of Toronto Metropolitan (USSTM) and Practical Applications
-                        of computer science (PACS). USSTM and PACS are student organizations at Toronto Metropolitan University that are
-                        dedicated to helping students learn more about the tech industry and to help them make connections with industry.
+                        of Computer Science (PACS). USSTM and PACS are student organizations at Toronto Metropolitan University that are
+                        dedicated to helping students learn more about the tech industry and to help them make connections within the industry.
                     </p>
                     <div className="flex flex-row w-full h-full items-center justify-center py-4">
                         <Image

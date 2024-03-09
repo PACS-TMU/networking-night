@@ -34,7 +34,7 @@ export default function Agenda() {
                                     height={500}
                                 />
                             </div>
-                            <time className="time">18:00</time>
+                            <time className="time">17:45</time>
                             <h4 className="speaker text-highlight-dark font-semibold">Panelist Introductions and Q&A</h4>
                         </div>
                         <div className="content">
@@ -46,7 +46,7 @@ export default function Agenda() {
                         <div className="info">
                             <div className="dot right-[0.5rem]">
                                 <Image 
-                                    src="/icons/handshake.svg"
+                                    src="/icons/handshake.png"
                                     alt="Handshake emoji icon"
                                     width={500}
                                     height={500}
@@ -64,7 +64,7 @@ export default function Agenda() {
                         <div className="info">
                             <div className="dot right-[0.5rem] text-2xl">
                                 <Image 
-                                    src="/icons/food.svg"
+                                    src="/icons/food.png"
                                     alt="Food emoji icon"
                                     width={500}
                                     height={500}
@@ -78,7 +78,7 @@ export default function Agenda() {
                         <div className="info">
                             <div className="dot right-[0.5rem] text-2xl">
                                 <Image 
-                                    src="/icons/insight.svg"
+                                    src="/icons/insight.png"
                                     alt="Remarks and insight emoji icon - a light bulb"
                                     width={500}
                                     height={500}
@@ -95,13 +95,13 @@ export default function Agenda() {
                         <div className="info">
                             <div className="dot right-[0.5rem] bottom-[0.5rem] text-2xl">
                                 <Image 
-                                    src="/icons/thanks.svg"
+                                    src="/icons/thanks.png"
                                     alt="Thank you emoji icon"
                                     width={500}
                                     height={500}
                                 />
                             </div>
-                            <time className="time">18:30</time>
+                            <time className="time">20:00</time>
                             <h4 className="title text-highlight-dark font-semibold">Thank You for Coming!</h4>
                         </div>
                     </li>
