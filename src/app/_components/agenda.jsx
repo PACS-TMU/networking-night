@@ -8,7 +8,7 @@ export default function Agenda() {
                 <h1 className='text-foreground text-3xl pb-8 lg:pb-12 md:text-4xl lg:text-5xl font-serif tracking-wide leading-relaxed font-semibold'>
                     Agenda
                 </h1>
-                <ul className="timeline lg:ml-8">
+                <ul className="timeline ml-2 lg:ml-8">
                     <li className="timeline__line"></li>
                     <li className="timeline__item">
                         <div className="info">
