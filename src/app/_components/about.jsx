@@ -46,7 +46,7 @@ export default function About() {
                         Do you want to learn more about the tech industry? Are you interested in meeting professionals in the field?
                         Join us for Tech Networking Night—an event where students connect with industry professionals, gaining insights and building valuable
                         relationships. Hosted by USSTM and PACS, two student organizations at Toronto Metropolitan University, this is your chance
-                        to dive into the tech scene and expand your network. Don't miss out on this opportunity to kickstart your journey in the world
+                        to dive into the tech scene and expand your network. Don&apos;t miss out on this opportunity to kickstart your journey in the world
                         of technology. Save the date and come ready to mingle and learn!
                     </p>
                     <p className="text-foreground mt-4">

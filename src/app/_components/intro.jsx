@@ -43,7 +43,7 @@ export default function Intro() {
             clearInterval(updateTime);
         }
 
-    }, []);
+    }, [countDownDate]);
 
     return (
         <section id="intro">
