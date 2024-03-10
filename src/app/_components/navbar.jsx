@@ -79,7 +79,7 @@ export default function Navbar() {
                     className={
                         nav
                             ? 'fixed md:hidden left-0 top-0 w-[75%] h-full bg-highlight-dark ease-in-out duration-500 z-50'
-                            : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
+                            : 'ease-in-out w-[75%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                     }
                 >
                     {/* Mobile Navigation Items */}

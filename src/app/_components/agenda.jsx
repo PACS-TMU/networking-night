@@ -14,7 +14,7 @@ export default function Agenda() {
                         <div className="info">
                             <div className="dot right-[0.5rem]">
                                 <Image 
-                                    src="/icons/check-in.svg"
+                                    src="/icons/check-in.png"
                                     alt="Check-in emoji icon"
                                     width={500}
                                     height={500}
@@ -56,8 +56,8 @@ export default function Agenda() {
                             <h4 className="speaker text-highlight-dark font-semibold">Round Table Networking</h4>
                         </div>
                         <div className="content">
-                            The panelists will be seated at round tables and the attendees will have a certain amount of time at each table. During this time, the panelists will be able to talk to the audience and 
-                            answer any questions they may have. After a certain amount of time, the attendees will move to the next table and the process will repeat untile each attendee has had a chance to talk to each panelist.
+                            Attendees will have a chance to speak to all of the panelists at round tables where they can ask more personalized questions. Through rotations, attendees will
+                            have a chance to visit and talk with all of the tech panelists.
                         </div>
                     </li>
                     <li className="timeline__item break">

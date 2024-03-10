@@ -30,22 +30,31 @@ export default function About() {
                                 Location
                             </h1>
                             <p className="pb-4 text-center">
-                                Oakham Lounge, 35 Gould St, Toronto, ON M5B 1E9
+                                <a
+                                    href="https://www.google.com/maps/place/35+Gould+St,+Toronto,+ON+M5B+1E9/@43.6579294,-79.3809976,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4cb35646082c1:0x8b7186b250df3ed3!8m2!3d43.6579294!4d-79.3784227!16s%2Fg%2F11c5pmd37h?entry=ttu"
+                                    target="_blank"
+                                    className="text-highlight-light underline hover:text-background transition duration-300 ease-in-out"
+                                >
+                                    Oakham Lounge, 35 Gould St, Toronto, ON M5B 1E9
+                                </a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col items-center text-foreground font-sans w-full lg:text-lg">
                     <p className="text-foreground mt-4">
-                        Tech Networking Night is an event that brings together students and industry professionals in the tech industry.
-                        This event is designed to help students learn more about the tech industry and to help them network with industry
-                        professionals. This event is open to all students and is a great opportunity to learn more about the tech industry
-                        and to make connections with industry professionals.
+                        Do you want to learn more about the tech industry? Are you interested in meeting professionals in the field?
+                        Join us for Tech Networking Night—an event where students connect with industry professionals, gaining insights and building valuable
+                        relationships. Hosted by USSTM and PACS, two student organizations at Toronto Metropolitan University, this is your chance
+                        to dive into the tech scene and expand your network. Don't miss out on this opportunity to kickstart your journey in the world
+                        of technology. Save the date and come ready to mingle and learn!
                     </p>
                     <p className="text-foreground mt-4">
-                        This event is hosted by the Undergraduate Science Society of Toronto Metropolitan (USSTM) and Practical Applications
-                        of Computer Science (PACS). USSTM and PACS are student organizations at Toronto Metropolitan University that are
-                        dedicated to helping students learn more about the tech industry and to help them make connections within the industry.
+                        <span className="text-lg lg:text-xl font-semibold underline">About the Hosts:</span><br /><br /><b>USSTM</b> aims to enhance the student experience 
+                        within the Faculty of Science. USSTM is dedicated to fostering a supportive community that prioritizes academic excellence, social 
+                        engagement, and professional development.<br /><br /><b>PACS</b> is focused on elevating the academic and career prospects of students 
+                        interested in the tech industry. PACS aims to bridge the gap between theoretical knowledge and practical application, ensuring students 
+                        are well-equipped for the challenges of the evolving tech industry.
                     </p>
                     <div className="flex flex-row w-full h-full items-center justify-center py-4">
                         <Image

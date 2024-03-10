@@ -11,9 +11,10 @@ export default function Contact() {
                         If you have any questions about the event, please feel free to reach out to us 
                         at <a href="mailto:pacs@usstm.ca" className="text-highlight-dark underline">pacs@usstm.ca</a>. For updates about the event,
                         please follow us on instagram 
-                        at <a href="https://www.instagram.com/pacs_tmu/" target="_blank" className="text-highlight-dark underline">@pacs_tmu</a>. To RSVP 
-                        for the event, please visit 
-                        our <a href="#rsvp" target="_blank" className="text-highlight-dark underline">RSVP section</a>.
+                        at <a href="https://www.instagram.com/pacs_tmu/" target="_blank" className="text-highlight-dark underline">@pacs_tmu</a> and 
+                        at <a href="https://www.instagram.com/usstorontomet/" target="_blank" className="text-highlight-dark underline">@usstorontomet</a>.
+                        To RSVP for the event, please visit 
+                        our <a href="#rsvp" className="text-highlight-dark underline">RSVP section</a>.
                     </p>
                 </div>
             </div>
