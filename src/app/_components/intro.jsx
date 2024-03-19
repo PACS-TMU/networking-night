@@ -10,7 +10,7 @@ export default function Intro() {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
 
-    let countDownDate = new Date("Mar 21, 2024 18:30:00").getTime();
+    let countDownDate = new Date("Mar 21, 2024 17:30:00").getTime();
 
     useEffect(() => {
 

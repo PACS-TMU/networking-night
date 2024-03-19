@@ -11,10 +11,6 @@ export default function Panelists() {
                         <p className="text-base xl:text-xl text-center font-light mb-2">Software Engineer at <a href="https://www.workday.com/" target="_blank" className="text-highlight-dark underline">Workday</a></p>
                     </div>
                     <div className="flex flex-col items-center justify-center md:px-4 md:mx-4 xl:mx-6 py-4 my-6 bg-highlight-light shadow-md p-4 w-[90%] md:w-1/3 lg:w-1/4 aspect-[7/3] rounded-md">
-                        <p className="text-lg lg:text-xl xl:text-2xl font-semibold mb-2">Pranav Rawal</p>
-                        <p className="text-base xl:text-xl text-center font-light mb-2">Software and Data Engineer at <a href="https://www.sanofi.com/" target="_blank" className="text-highlight-dark underline">Sanofi</a></p>
-                    </div>
-                    <div className="flex flex-col items-center justify-center md:px-4 md:mx-4 xl:mx-6 py-4 my-6 bg-highlight-light shadow-md p-4 w-[90%] md:w-1/3 lg:w-1/4 aspect-[7/3] rounded-md">
                         <p className="text-lg lg:text-xl xl:text-2xl font-semibold mb-2">Alessandro Cunsolo</p>
                         <p className="text-base xl:text-xl text-center font-light mb-2">Startup Co-Founder</p>
                     </div>
